@@ -1,0 +1,189 @@
+ @import url(https://fonts.google.com/specimen/Poppins?query=popp&preview.text=poppins&preview.text_type=custom);
+
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding-top: 0px;
+}
+body{
+    margin: 0;
+    background: #000;
+}
+*{
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    margin: 6px;
+}
+
+
+
+p{font-size: 14px;}
+
+a{
+    text-decoration: none;
+    color:#b40000;
+    
+}
+a img{
+    border: none,
+}
+ul, ol{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7a0101;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    /* background-image: ; */
+}
+#cajacabercera{
+    width: 100%;
+    background:linear-gradient(98.3deg, rgb(0,0,0) 10.6%, rgb(255,0,0) 97.7%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#logo{
+    width: 20%;
+    padding: 1px 0;
+}
+/* -------------------MENU------------------------ */
+
+.menu{
+    width: 80%;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+    color: #ffffff;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+.menu a i{
+    font-size: 20px;
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #b84343;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 900;
+    background-image: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255,0,0) 97.7%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align-last: center;
+  }
+
+.ini{
+    background-image: url("../imag/13380024_5215212.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 792px;
+    position: relative;
+    padding-top: 150px;
+}
+
+.inicio{
+    background: #E9E9E9 url("../imag/tren.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    background-position: right bottom;
+}
+.calendario{
+    background: #fff url("../imag/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+}
+.articulos{
+    background: #E9E9E9 url("../imag/tren.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+    background-position: right bottom;
+}
+.mas{
+    background: #fff url("../imag/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+}
+
+
+/* ---------------------------------------------------PIE DE PAGINA--------------------------------------------------- */
+#piepagina{
+    background: #c00000;
+    padding: 2% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+}
+#piepagina p{
+    color: #ffffff;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+}
+#piepagina ul li a{
+    text-align-last:calc(10px);
+    width: 4opx;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #ebb548;
+    font-size: 20px;
+}
